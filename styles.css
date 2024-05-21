@@ -1,0 +1,50 @@
+/* Estilos para la barra de navegación */
+nav ul {
+  list-style-type: none;
+  padding: 50;
+  margin: 100;
+  color: aqua;
+}
+nav {
+    background-color: #333;
+  }
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ff008c;
+}
+body {
+    background-color: #000000; /* Color de fondo de toda la página */
+  }
+
+#activitiesMenu {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  color: #002fff;
+  background-color: #2f00ff;
+}
+
+#activitiesMenu li {
+  margin: 0;
+}
+
+#activitiesMenu li a {
+  display: block;
+  padding: 5px 10px;
+  color: #00f7ff;
+}
+
+#activitiesMenu li a:hover {
+  background-color: #3cff00;
+}
+
